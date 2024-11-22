@@ -6,7 +6,6 @@ const App = () => {
     const [response, setResponse] = useState(null);
     const [error, setError] = useState("");
     const [filter, setFilter] = useState([]);
-
     const handleSubmit = async () => {
         try {
             const parsedInput = JSON.parse(input);
