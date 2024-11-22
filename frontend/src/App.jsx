@@ -10,7 +10,7 @@ const App = () => {
     const handleSubmit = async () => {
         try {
             const parsedInput = JSON.parse(input);
-            const response = await fetch("bajaj-api-task-gules.vercel.app", {
+            const response = await fetch("bajaj-api-task-gules.vercel.app/bfhl", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
