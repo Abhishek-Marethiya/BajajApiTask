@@ -5,7 +5,7 @@ const cors = require("cors");
 const app = express();
 const PORT = 5050;
 const corsOptions = {
-    origin: "https://bajaj-api-task-frontend.vercel.app/", // Frontend's origin
+    origin: "http://localhost:5173", // Frontend's origin
     methods: "GET,POST", // Allowed HTTP methods
     credentials: true, // Optional
 };
