@@ -10,7 +10,8 @@ const App = () => {
     const handleSubmit = async () => {
         try {
             const parsedInput = JSON.parse(input);
-            const response = await fetch("http://localhost:5050/bfhl", {
+            const response = await fetch("https://bajaj-api-task-three.vercel.app/bfhl
+", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
